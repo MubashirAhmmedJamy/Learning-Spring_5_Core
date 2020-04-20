@@ -1,0 +1,2 @@
+com.javaKnowledge.ComStereo=org.springframework.stereotype.Component
+com.javaKnowledge.HelloConfig=org.springframework.stereotype.Component
