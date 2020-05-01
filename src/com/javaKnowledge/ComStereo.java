@@ -13,7 +13,7 @@ public class ComStereo {
         return a1;
     }
 
-    @Resource(name = "a1")
+    @Resource(name = "a2")
     @Required
     public void setA1(Address a1) {
         this.a1 = a1;

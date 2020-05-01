@@ -10,12 +10,6 @@ import javax.annotation.PreDestroy;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 
-/**
- *
- * @author Jamy
- */
-
-//
 public class Hello implements InitializingBean, DisposableBean{
     private String message;
 
@@ -58,5 +52,4 @@ public class Hello implements InitializingBean, DisposableBean{
     public void destroy() throws Exception {
         System.out.println("Destroying hello class - Interface | "+ message);
     }
-    
 }

@@ -18,6 +18,12 @@ public class Dependency_Test {
         one.show();
         
         
+//        System.out.println("Autowire object creating from normal Application Context- ob10");
+//        Auto a = (Auto) con.getBean("auto");
+//        System.out.println("Autowire show calling");
+//        a.show();
+        
+        
         System.out.println("Setter object creating - ob2\n");
         Setter s = (Setter) con.getBean("set");
         System.out.println("Setter show calling\n");
@@ -76,7 +82,7 @@ public class Dependency_Test {
         System.out.println("RequiredAnnotation show calling");
         ra.show();
         
-        System.out.println("Autowire object creating - ob10");
+        System.out.println("Autowire object creating from Abstract Application Context- ob10");
         Auto a = (Auto) c.getBean("auto");
         System.out.println("Autowire show calling");
         a.show();

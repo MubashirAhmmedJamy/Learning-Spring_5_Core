@@ -12,7 +12,6 @@
     
     
     <bean id="a1" class="com.javaKnowledge.Address" >
-        
         <constructor-arg value="${city}" ></constructor-arg>
         <constructor-arg value="${country}" ></constructor-arg>
     </bean>
@@ -53,7 +52,7 @@
     
     <bean id="set" class="com.javaKnowledge.Setter" >
         <property name="s">
-            <value>Hulululu</value>
+            <value>Hulululu from setter</value>
         </property>
         
         <property name="get">
@@ -121,7 +120,7 @@
         <property name="location" value="com/javaKnowledge/prop.properties"/>
     </bean>
     
-<!--    <context:annotation-config/>-->
+    <context:annotation-config/>
     <context:component-scan base-package="com.javaKnowledge"/>
     
 </beans>
