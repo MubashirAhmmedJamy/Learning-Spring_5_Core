@@ -16,5 +16,4 @@ public class PostProcessor implements BeanPostProcessor{
         System.out.println("post processor after: "+beanName);
         return bean;
     }
-    
 }
